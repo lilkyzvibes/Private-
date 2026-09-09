@@ -1,0 +1,18 @@
+{
+  "company": {
+    "name": "",
+    "crafts": [],
+    "positioning": "",
+    "owner_out_of_delivery": false
+  },
+  "targets": {
+    "monthly_new_revenue": 10000,
+    "margin_floor": 0.5,
+    "concentration_cap": 0.2,
+    "pipeline_coverage": 3.0
+  },
+  "overhead_monthly": 500,
+  "leads": [],
+  "clients": [],
+  "talent": []
+}
