@@ -58,8 +58,8 @@ one and will stand behind them."* Everything that compounds — the roster,
 performance history, the ability to staff a brief in a day — comes from taking
 vetting seriously. It's the asset a buyer eventually pays for.
 
-**Concentration is what kills the exit.** A $3M agency where one client is 60%
-of revenue sells for a fraction of a $3M agency whose largest client is 15%.
+**Concentration is what kills the exit.** A three-million-dollar agency where one client is 60%
+of revenue sells for a fraction of an identical one whose largest client is 15%.
 Enforce the cap early, when it costs you something, because later it's structural.
 
 **Margin comes from the layer you add.** There's a ladder, and the whole growth
@@ -103,7 +103,7 @@ Read the file when you're doing that thing — don't preload everything.
 | `references/economics.md` | Unit economics, the cash cycle, what to measure. |
 | `references/legal.md` | The contract stack, IP chain, worker classification, the hard lines. |
 | `references/valuation.md` | What a buyer pays for and how to raise the multiple. |
-| `references/scaling.md` | Stage gates from $0 to platform, and what breaks at each. |
+| `references/scaling.md` | Stage gates from zero to platform, and what breaks at each. |
 
 Templates in `assets/` are starting points to fill in, not finished legal
 documents — say so when you hand one over, and tell the user to have a lawyer
@@ -133,8 +133,8 @@ python3 scripts/economics.py valuation              # multiple ladder against cu
 ## Judgment calls worth getting right
 
 **Pricing.** Price against the client's alternative, which is a salary, not
-against your contractor cost. A role they've failed to fill at $150k is ~$12.5k/mo
-fully loaded plus recruiting cost plus months of vacancy. A $9k/mo retainer that
+against your contractor cost. A role they've failed to fill at 150k a year is about 15.5k a month
+fully loaded, plus recruiting cost, plus months of vacancy. A 9k/mo retainer that
 starts Monday is cheap to them and 60% margin to you. Never quote hourly to a
 client — hourly caps your upside at your contractor's speed and invites
 timesheet arguments.
@@ -157,3 +157,11 @@ crafts before widening.
 
 **Kill deals fast.** A lead that hasn't moved in 14 days is a no. The cost isn't
 the lost deal, it's the attention it takes from the next one.
+
+---
+
+*Note for anyone editing this file: the skill loader treats `$` followed by a
+digit as an argument placeholder, so money figures written that way get mangled
+when the skill is invoked with arguments. Write amounts in SKILL.md as `150k a
+year` rather than with a leading dollar sign. Reference files under
+`references/` are read directly and are not affected.*
